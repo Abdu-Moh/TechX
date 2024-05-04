@@ -1,5 +1,5 @@
 @font-face {
-    src: url(/Fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth\,wght.ttf);
+    src: url(Fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth\,wght.ttf);
     font-family: 'Times New Roman';
 }
 
@@ -511,7 +511,7 @@ hr {
 .heading-section {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.783), rgba(4, 9, 30, 0.823)), url(/Images/Header\ background.png);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.783), rgba(4, 9, 30, 0.823)), url(Images/Header\ background.png);
     background-position: center;
     background-size: cover;
     text-align: center;
