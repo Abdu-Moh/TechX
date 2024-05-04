@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechX | Contact</title>
+    <link rel="icon" href="/Images/TechX_LOGO.png" />
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ffc746c5a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="heading-section second-heading-section hide">
+      <nav>
+        <a href="/Home/index.html"
+          ><img src="/Images/TechX_LOGO.png" alt="TechX LOGO" id="LOGO"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li class="hidden"><a href="/Home/index.html">HOME</a></li>
+            <li class="hide">
+              <a href="/Softwares/index.html">TechX Softwares</a>
+            </li>
+            <li class="hide">
+              <a href="/Hardwares/index.html">TechX Hardwares</a>
+            </li>
+            <li class="hidden"><a href="/Contact/index.html">CONTACT</a></li>
+            <li class="hidden"><a href="/About/index.html">ABOUT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <!--section class="location">
+
+</section-->
+
+    <section class="contact-us">
+      <div class="contact-row">
+        <div class="contact-column hide">
+          <div class="contact-col">
+            <form action="contact.php" method="post">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your Email address"
+                required
+              />
+              <!--input type="text" name="title" placeholder="Specify your issue" required--><!--I want to make it dropdown menu-->
+              <textarea
+                rows="8"
+                name="feedback"
+                placeholder="Enter your feedback..."
+                required
+              ></textarea>
+              <button type="submit" class="Submit">Submit Feedback</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <p>Or contact us using Email</p>
+        <hr />
+        <br />
+        <div class="contact-col">
+          <div class="hidden0">
+            <i class="fa fa-brands fa-xing"></i>
+            <span>
+              <h5>
+                <a href="mailto: ">contact@techx.com</a>
+              </h5>
+              <p>Email us your feedback on our private mail</p>
+            </span>
+          </div>
+          <div class="hidden0">
+            <i class="fa fa-google"></i>
+            <span>
+              <h5>
+                <a href="mailto: ">techx@gmail.com</a>
+              </h5>
+              <p>Email us your feedback on Google</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer class="additional-footer">
+      <div class="copyright hide">
+        <p>&copy; TechX Softwares, all rights reserved.</p>
+      </div>
+      <div class="claim hide">
+        <p>
+          Built by
+          <a
+            href="https://abdu-moh.github.io/portfolio/"
+            title="Abdurahman's portfolio"
+            target="_blank"
+            rel="noopener"
+            >Abdurahman Mohammed</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
