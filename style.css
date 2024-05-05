@@ -717,7 +717,7 @@ textarea {
 
 .hidden1 {
     opacity: 1;
-    transform: translateX(100%);
+    transform: translateX(10px);
     transition: 1s;
 }
 
