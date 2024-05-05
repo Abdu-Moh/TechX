@@ -721,15 +721,15 @@ textarea {
 
 .hidden1 {
     opacity: 1;
-    transform: translateX(50%);
-    transition: 1s;
+    transform: translateX(50px);
+    transition: 2s;
     overflow-x: hidden !important;
 }
 
 .show1 {
     opacity: 1;
-    transform: translateX(0%);
-    transition: 1s;
+    transform: translateX(0);
+    transition: 2s;
 }
 
 @keyframes glow {
