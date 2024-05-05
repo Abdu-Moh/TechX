@@ -35,6 +35,11 @@ body {
     overflow-x: hidden !important;
 }
 
+section {
+    width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 .home {
     min-height: 100vh;
     width: 100%;
