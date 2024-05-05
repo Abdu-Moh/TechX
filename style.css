@@ -719,6 +719,7 @@ textarea {
     opacity: 1;
     transform: translateX(50%);
     transition: 1s;
+    overflow-x: hidden !important;
 }
 
 .show1 {
