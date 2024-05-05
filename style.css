@@ -235,6 +235,8 @@ p {
     overflow: hidden;
     background-color: #6898c4;
     display: flex;
+    will-change: transform;
+    overflow-x: hidden !important;
 }
 
 .worksAddDiv {
