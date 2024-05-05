@@ -722,14 +722,14 @@ textarea {
 .hidden1 {
     opacity: 1;
     transform: translateX(50px);
-    transition: 2s;
+    transition: 1s;
     overflow-x: hidden !important;
 }
 
 .show1 {
     opacity: 1;
     transform: translateX(0);
-    transition: 2s;
+    transition: 1s;
 }
 
 @keyframes glow {
@@ -755,6 +755,19 @@ textarea {
     .second-row {
         flex-direction: column;
     }
+
+    .hidden1 {
+    opacity: 1;
+    transform: translateX(30px);
+    transition: 1.5s;
+    overflow-x: hidden !important;
+    }
+
+    .show1 {
+        opacity: 1;
+        transform: translateX(0);
+        transition: 1.5s;
+    }
 }
 
 @media(max-width: 750px) {
@@ -778,6 +791,19 @@ textarea {
 
     .additional-footer p {
         font-size: x-small;
+    }
+
+    .hidden1 {
+    opacity: 1;
+    transform: translateX(20px);
+    transition: 2s;
+    overflow-x: hidden !important;
+    }
+    
+    .show1 {
+        opacity: 1;
+        transform: translateX(0);
+        transition: 2s;
     }
 
 }
@@ -812,5 +838,18 @@ textarea {
 
     .nav-links ul {
         padding: 30px;
+    }
+
+    .hidden1 {
+    opacity: 1;
+    transform: translateX(10px);
+    transition: 2s;
+    overflow-x: hidden !important;
+    }
+    
+    .show1 {
+        opacity: 1;
+        transform: translateX(0);
+        transition: 2s;
     }
 }
