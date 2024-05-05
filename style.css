@@ -130,7 +130,7 @@ nav {
 }
 
 .textbox h1 {
-    color: color-mix(in srgb, darkblue, cornflowerblue);
+    color: color-mix(in srgb, darkblue, cornflowerblue) !important;
     font-size: 50px;
 }
 
