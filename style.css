@@ -10,11 +10,6 @@
     font-family: 'Times New Roman';
 }
 
-section {
-/*   max-width: 100vw !important; */
-/*   overflow-x: hidden !important; */
-}
-
 ::-webkit-scrollbar {
     width: 10px;
     background-color: #01052966;
@@ -36,7 +31,7 @@ section {
 
 body {
     background-color: #acc6e2;
-    width: 100vw !important;
+    width: 100vw;
     overflow-x: hidden !important;
 }
 
@@ -301,7 +296,8 @@ p {
     margin: auto;
     text-align: center;
     padding-top: 50px;
-
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
 }
 
 .departments-col {
