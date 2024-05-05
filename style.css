@@ -721,14 +721,14 @@ textarea {
 
 .hidden1 {
     opacity: 1;
-    transform: translateX(30px);
+    transform: translateY(10%);
     transition: 1s;
     overflow-x: hidden !important;
 }
 
 .show1 {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0%);
     transition: 1s;
 }
 
@@ -755,7 +755,7 @@ textarea {
     .second-row {
         flex-direction: column;
     }
-
+/* 
     .hidden1 {
     opacity: 1;
     transform: translateX(20px);
@@ -767,7 +767,7 @@ textarea {
         opacity: 1;
         transform: translateX(0);
         transition: 1.5s;
-    }
+    } */
 }
 
 @media(max-width: 750px) {
@@ -793,7 +793,7 @@ textarea {
         font-size: x-small;
     }
 
-    .hidden1 {
+/*     .hidden1 {
     opacity: 1;
     transform: translateX(10px);
     transition: 2s;
@@ -804,7 +804,7 @@ textarea {
         opacity: 1;
         transform: translateX(0);
         transition: 2s;
-    }
+    } */
 
 }
 
