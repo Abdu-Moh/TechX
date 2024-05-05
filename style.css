@@ -720,8 +720,8 @@ textarea {
 }
 
 .hidden1 {
-    opacity: 1;
-    transform: translateY(10%);
+    opacity: 0;
+    transform: translateY(50%);
     transition: 1s;
     overflow-x: hidden !important;
 }
