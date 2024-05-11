@@ -787,11 +787,18 @@ textarea {
     }
 
     .nav-lists {
+        @starting-style {
+            opacity: 0;
+        }
+
         display: block;
+        opacity: 1;
     }
 
     .nav-links {
         display: none;
+        opacity: 0;
+        transition: opacity 1s, display 1s;
         right: -200px;
         position: absolute;
         height: 100vh;
